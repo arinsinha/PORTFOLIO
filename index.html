@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arin Ved Sinha - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Oxygen:wght@300;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/arinlogo.png" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>FRONT-END WEB DEVELOPER</p>
+                <h1>HI, I'M <span>ARIN</span><br>WELCOME TO MY PORTFOLIO!</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------- ABOUT ------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/169400609063886076-01.jpeg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        ABOUT ME
+                    </h1>
+                    <p class="about-text">
+                        Highly motivated and aspiring Software Engineer pursuing a Bachelor's degree in
+                        Computer Science. Proficient in programming languages like C++, Java, and
+                        JavaScript, with expertise in Web Development frameworks. Strong problem-solving
+                        abilities and experience in designing efficient solutions. Well-versed in the entire
+                        software development lifecycle and adept at collaborating with cross-functional
+                        teams. Committed to continuous learning, staying updated with the latest
+                        technologies. Strong communication skills and a drive to excel in the field, fueled by
+                        a genuine passion for technology and innovation.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FRONT-END WEB DEVELOPMENT</span><br>Designing & Creating Webpage Interfaces</li>
+                            <li><span>COMPETITIVE CODING</span><br>Applications of Data Structures & Algorithms</li>
+                            <li><span>PROGRAMMING</span><br>C/C++, Java, Python</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>ELLIOT SYSTEMS</span><br>Front-End Web Developer Intern</li>
+                            <li><span>BECOMING I FOUNDATION (BIF-VIT)</span><br>Senior Core Committee Member</li>
+                            <li><span>BLEND GLOBAL</span><br>Head Content Writer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>CLASS X (2018-2019)</span><br>Delhi Public School - Percentage: 80%</li>
+                            <li><span>CLASS XII (2020-2021)</span><br>St. Kabir School - Percentage: 75%</li>
+                            <li><span>BACHELOR'S (2021-Present*)</span><br>Vellore Institute of Technology - CGPA: 8.5*
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------------SERVICES--------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title1">SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>WEB DESIGN</h2>
+                    <p>Experienced Web Designer with a strong track record of creating visually appealing and
+                        user-friendly websites.
+                        Proficient in designing responsive layouts that provide seamless user experiences across various
+                        devices.
+                        Well-versed in HTML and CSS for effective front-end development. Committed to staying updated
+                        with design trends and delivering high-quality,
+                        accessible and creative websites that align with client objectives and brand identity.</p>
+                    <!-- <a href="#">LEARN MORE!</a> -->
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>DATA ANALYSIS & DATA SCIENCE</h2>
+                    <p>Dedicated Data Analyst and Data Scientist with a strong background in collecting, analyzing, and
+                        interpreting complex data sets.
+                        Proficient in data manipulation, statistical analysis, and machine learning techniques using
+                        programming languages such as Python and R.
+                        Experienced in leveraging data to drive actionable insights and inform strategic
+                        decision-making.
+                        Adept at working collaboratively in cross-functional teams to solve business challenges through
+                        data-driven solutions.</p>
+                    <!-- <a href="#">LEARN MORE!</a> -->
+                </div>
+
+                <!-- <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>FITFOLIO</h2>
+                <p>FITFOLIO is a comprehensive fitness tracker designed to help individuals achieve
+                    their health and wellness goals; users can easily monitor and track their fitness
+                    activities, nutrition intake, and overall progress and obtain appropriate plans.<br>
+                    Tech Stack: HTML, CSS, JavaScript, NODEjs, MONGODB</p>
+                <a href="#">LEARN MORE!</a>
+            </div> -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------------PORTFOLIO-------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">WORK/PROJECTS</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/fitfolio.jpg">
+                    <div class="layer">
+                        <h3>FITFOLIO</h3>
+                        <p>FITFOLIO is a comprehensive fitness tracker designed to help individuals achieve
+                            their health and wellness goals; users can easily monitor and track their fitness
+                            activities, nutrition intake, and overall progress and obtain appropriate plans.</p>
+                            <a href="https://github.com/arinsinha/FITFOLIO"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/soundcipher.jpg">
+                    <div class="layer">
+                        <h3>SOUNDCIPHER</h3>
+                        <p>SOUNDCIPHER is an immersive and interactive game that challenges
+                            players to guess a hidden number using audio; user's voice is detected
+                            & captured by the SOUNDCIPHER model.</p>
+                            <a href="https://github.com/arinsinha/SOUNDCIPHER"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/arinsinha" class="btn">KNOW MORE</a>
+        </div>
+    </div>
+
+    <!-- ----------------------------CONTACT---------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <p><i class="fas fa-paper-plane"></i> arinvedsinha22@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7487846554</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/avsinha/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/arinsinha"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/arinved.sinhaa/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/SinhaArin"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1KAr5MPUIXPY2VDp2r5tNmBHW40ahsYdE/view?usp=drive_link" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © ARIN VED SINHA</p>
+        </div>
+    </div>
+
+    <!-- -----------------------------------JAVASCRIPT-------------------------------- -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
